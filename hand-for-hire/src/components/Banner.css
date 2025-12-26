@@ -1,0 +1,178 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.banner-div {
+display: flex;
+gap: 0px;
+flex-direction: column;
+width: auto;
+align-items: center;
+justify-content: center;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+}
+
+.banner-div-top{
+    padding-top: 40px;
+    width: 100vw;
+    height: 198px;
+    background: linear-gradient(180deg, #2E2F5E, #1B0838);
+}
+
+.three-div-container{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.fast{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.discover{
+    font-size: 1.4rem;
+    color: aliceblue;
+}
+
+.skilled{
+    color: rgb(235, 154, 48);
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+.bold-lko{
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(255, 238, 0);
+    font-family: lobster;
+}
+
+.bold-lko:hover{
+    font-size: 1.6rem;
+
+}
+
+
+    
+
+
+.banner-div-bottom{
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3vw;
+}
+
+.home, .Education, .Services{
+    width: 30vw;
+    height: 40px;
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.Education{
+    background-color: rgb(235, 241, 179);
+}
+
+.home{
+    background-color: rgb(186, 249, 186);
+}
+
+.Services{
+    background-color: rgb(220, 195, 171);
+}
+
+.banner-div-bottom{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2vw;
+    flex-direction: row;
+
+}
+
+.home-content{
+    width: 30vw;
+    background-color: rgb(219, 245, 219);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Education-content{
+    width: 30vw;
+    background-color: rgb(231, 233, 211);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Services-content{
+    width: 30vw;
+    background-color: rgb(232, 223, 214);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.home-content, .Education-content, .Services-content{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+.content-img{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.content-txt{
+    font-size: .7rem;
+    
+}
+
+
+/* ____________Media query____________ */
+@media screen and (max-width : 800px) {
+    .fast{
+    font-size: 1.5rem;
+    font-weight: 600;
+        }
+
+    .discover{
+    font-size: 1rem;
+        }
+
+    .skilled{
+    color: burlywood;
+    font-size: .7rem;
+    
+        }
+    .three-div-container{
+        padding-top: 54.5px;
+    }
+    .home, .Education, .Services{
+        font-size: .8rem;
+    }
+    .home-content, .Education-content, .Services-content{
+        flex-direction: column;
+    }
+    
+    }
