@@ -1,0 +1,16 @@
+.footer-heading{
+    padding-left: 4vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    font-size: 1.3rem;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+
+}
+
+.footer-para{
+    color: rgb(90, 87, 87);
+    font-size: 16px;
+    padding-left: 4vw;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+
+}
