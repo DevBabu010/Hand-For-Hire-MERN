@@ -5,6 +5,7 @@ import Banner from "./components/Banner";
 import Majorcities from "./components/Majorcities";
 import Footer from "./components/Footer";
 import Astrology from "./components/Astrologyservices";
+import Wedding from "./components/Wedding";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       <Majorcities/>
 
       <Astrology/>
+      <Wedding/>
       <Footer/>
       
       

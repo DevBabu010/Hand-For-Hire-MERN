@@ -1,16 +1,66 @@
+.footer{
+    box-sizing: border-box;
+    padding-right: 20px;
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    background: linear-gradient(180deg, #3c3d7a, #1B0838);
+}
+
+
 .footer-heading{
+    text-decoration: underline;
+    color: aliceblue;
     padding-left: 4vw;
     padding-top: 3vh;
     padding-bottom: 3vh;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-family: "Segoe UI", Roboto, Arial, sans-serif;
 
 }
 
 .footer-para{
-    color: rgb(90, 87, 87);
-    font-size: 16px;
+    color: rgb(181, 172, 172);
+    font-size: 12px;
     padding-left: 4vw;
     font-family: "Segoe UI", Roboto, Arial, sans-serif;
 
 }
+
+.corporate{
+    padding-top: 1.5vh;
+    
+
+}
+
+.domains{
+    
+    padding-top:3vh ;
+    
+}
+
+.corporate-heading, .domain-heading{
+    font-size: .8rem;
+    text-decoration: underline;
+    color: rgb(193, 198, 203);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.corporate-content, .domain-content{
+    display: flex;
+    flex-direction: column;
+    font-size: .8rem;
+    gap: 9px;
+    padding-top: .6rem;
+    color: rgb(181, 172, 172);
+}
+
+.corporate-content-container{
+    display: flex;
+    gap: 10px;
+
+}
+

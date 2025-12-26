@@ -11,7 +11,7 @@ import astroall from "../assets/astro-all.jpg"
 
 const Astrologyservices = () => {
     return (
-    <div>
+    <div className='astro-container'>
         <div className='astro-heading'>
             <div className='astro-header'><p>Astrology Services</p></div>
             <div className='astro-underline'><img src={underline} alt="und" /></div>
