@@ -18,3 +18,38 @@
 
     /* padding-left: 4vw; */
 }
+
+.new-tag-div{
+    position: relative;
+}
+
+.newtag{
+    position: absolute;
+    top : -5px;
+    left : -5px;
+    border-radius: 7px;
+    border: none;
+    width: 40px;
+    height: 20px;
+    color: rgb(252, 252, 252);
+    background-color: rgb(222, 19, 12);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: newtagzoom 1s forwards infinite;
+}
+
+@keyframes newtagzoom {
+    0%{
+        transform: scale(1);
+
+    }
+    50%{
+        transform: scale(.8);
+    }
+
+    100%{
+        transform: scale(1);
+
+    }
+
+    
+}

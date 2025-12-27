@@ -5,7 +5,7 @@ import { useState } from "react";
 
 
 
-const Header = ({ openLogin }) => {
+const Header = ({ openLogin , openHb}) => {
 
     
     return (
@@ -28,7 +28,7 @@ const Header = ({ openLogin }) => {
                 <i class="fa-solid fa-user"></i>
                 <i class="fa-solid fa-house"></i>
             </div>
-            <div className='hamburger-menu'>
+            <div onClick={openHb} className='hamburger-menu'>
                 <span></span>
                 <span></span>
                 <span></span>

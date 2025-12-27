@@ -7,23 +7,35 @@ import Footer from "./components/Footer";
 import Astrology from "./components/Astrologyservices";
 import Wedding from "./components/Wedding";
 import Loginform from "./components/Loginform";
+import Hamburgermenu from './components/Hamburgermenu';
 
 function App() {
-  // const [count, setCount] = useState(0)
   const [showLogin, setShowLogin] = useState(false);
+  const [showHb, setShowHb] = useState(false);
 
   return (
     
     <>
-    
-        <Header openLogin={() => setShowLogin(true)} />
+
+        <Header 
+          openLogin={() => setShowLogin(true)} 
+          openHb={()=> setShowHb(true)}
+          
+        />
+      
+
+
+        {showHb && (
+          <Hamburgermenu onHbClose={() => setShowHb(false)} />
+          )}
+      
 
         {showLogin && (
           <Loginform onClose={() => setShowLogin(false)} />
         )}
       <Banner/>
+      
       <Majorcities/>
-
       <Astrology/>
       <Wedding/>
       <Footer/>

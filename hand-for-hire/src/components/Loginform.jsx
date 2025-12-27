@@ -1,5 +1,4 @@
 import React from 'react'
-import "./Loginform.css";
 
 const Loginform = ({ onClose }) => {
     return (

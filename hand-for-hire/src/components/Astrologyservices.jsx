@@ -18,9 +18,10 @@ const Astrologyservices = () => {
             
         </div>
         <div className='astro-body'>
-            <div>
+            <div className='new-tag-div'>
                 <div><img className='astro-body-img' src={emerald} alt="pl" /></div>
                 <div><p className='astro-body-txt'>Buy Gemstones</p></div>
+                <button className='newtag'>New</button>
             </div>
             <div>
 

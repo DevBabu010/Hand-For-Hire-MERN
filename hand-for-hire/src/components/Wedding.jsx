@@ -18,9 +18,10 @@ const Wedding = () => {
             
         </div>
         <div className='wedding-body'>
-            <div>
+            <div className='new-tag-div'>
                 <div><img className='astro-body-img' src={bride} alt="pl" /></div>
                 <div><p className='astro-body-txt'>Bridal Makeup</p></div>
+                <button className='newtag'>New</button>
             </div>
             <div>
                 <div><img className='astro-body-img' src={groom} alt="pl" /></div>
@@ -30,9 +31,10 @@ const Wedding = () => {
                 <div><img className='astro-body-img' src={destination} alt="pl" /></div>
                 <div><p className='astro-body-txt'>Destination wedding</p></div>
             </div>
-            <div>
+            <div className='new-tag-div'>
                 <div><img className='astro-body-img' src={decor} alt="pl" /></div>
                 <div><p className='astro-body-txt'>Wedding decor</p></div>
+                <button className='newtag'>New</button>
             </div>
             <div>
                 <div><img className='astro-body-img' src={eventplanner} alt="pl" /></div>
