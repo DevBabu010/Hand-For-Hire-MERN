@@ -169,11 +169,8 @@
     .home-content, .Education-content, .Services-content{
         flex-direction: column;
     }
-        
-        
-    .banner-ad-div img{
-        width: 50px;
-    }
+    
+
 }
     
 
@@ -181,7 +178,7 @@
     .banner-ad-div img{
 
         
-        width: 950px;
+        width: 900px;
         border-radius: 4px;
         cursor: pointer;
 
