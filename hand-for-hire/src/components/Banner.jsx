@@ -15,6 +15,7 @@ import clean from  "../assets/clean.webp";
 import loan from  "../assets/loan.webp";
 import security from  "../assets/security.webp";
 import pest from  "../assets/pest.webp";
+import flights from  "../assets/flights.png";
 
 
 const Banner = () => {
@@ -22,7 +23,7 @@ const Banner = () => {
         <div className='banner-div'>
             <div className='banner-div-top'>
                 <div>
-                    <p className='fast'>Fast, Free way to get experts</p>
+                    <p className='fast'>Fast, Free way to get experts & services</p>
                 </div>
                 <div>
                     <p className='discover'>Discover Top Experts in <span className='bold-lko'>Lucknow</span></p>
@@ -33,6 +34,11 @@ const Banner = () => {
                 <div>
                     <img src={underline} alt="ul" />
                 </div>
+                <div className='banner-ad-div'>
+                    <img src={flights} alt="fl" />
+
+                </div>
+                
 
                 <div className='three-div-container'>
                         <div className='home'>Home</div>
