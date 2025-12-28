@@ -84,7 +84,7 @@ MIT License
 ![Login Popup](./Login-page.png)
 ---
 - HAMBURGER MENU
-![Hamburger](./hamburger-menu.png)
+![Hamburger](./Hamburger-menu.png)
 ---
 
 ## 👤 Author
