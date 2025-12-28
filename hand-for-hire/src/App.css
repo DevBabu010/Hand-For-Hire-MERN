@@ -17,9 +17,11 @@
   justify-content: center;
 }
 .modal-box {
-  background: white;
+
+  background: rgb(245, 248, 246);
   padding: 25px;
-  width: 300px;
+  width: 410px;
+  /* height: 300px; */
   border-radius: 17px;
   position: relative;
   display: flex;
@@ -28,9 +30,39 @@
   animation: popup 0.3s ease;
 }
 .modal-box input {
+  background-color: #8d8eaf;
+  outline: none;
+  border: none;
+  border-radius: 10px;
   padding: 10px;
   font-size: 1rem;
 }
+
+.modal-box label {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  font-size: .9rem;
+  
+}
+
+.modal-box p {
+  padding: 10px;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.modal-box h2{
+  font-family: "Pacifico", cursive;;
+  text-decoration: underline;
+  color: #2e2f5e;
+}
+
+.modal-box h3{
+  padding-bottom: 7px;
+  font-family: "Pacifico", cursive;;
+}
+  
 
 .login-btn {
   padding: 10px;
@@ -46,6 +78,17 @@
   right: 12px;
   cursor: pointer;
 }
+
+.username{
+  background-color: #8d8eaf;
+  /* background-color: #baebbf; */
+  border-radius: 10px;
+}
+
+.modal-box i {
+  padding-left: 10px;
+}
+
 @keyframes popup {
   from {
     transform: scale(0.8);

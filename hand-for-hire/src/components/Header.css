@@ -44,7 +44,7 @@
     font-weight:600;
     cursor: pointer;
     color: rgb(255, 247, 1);
-    font-family: lobster;
+    font-family: "lobster", cursive;
     text-shadow: 5px 5px 3px black; 
 }
 
