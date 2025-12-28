@@ -76,7 +76,8 @@
     align-items: center;
 }
 
-i{
+.user-icon-and-hamburger i{
+    cursor: pointer;
     font-size: 25px;
     padding-right: 10px;
     
@@ -84,10 +85,11 @@ i{
 
 }
 
-i:hover{
-    font-size: 25px;
-    padding-right: 10px;
-    text-shadow: -1px 2px 2px rgb(255, 230, 0)
+.user-icon-and-hamburge i:hover{
+    .user-icon-and-hamburge i:hover {
+    transform: scale(1.2);
+    text-shadow: -1px 2px 2px rgb(255, 230, 0);
+}
     
 
 }

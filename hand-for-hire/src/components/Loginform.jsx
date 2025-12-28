@@ -10,8 +10,11 @@ const Loginform = ({ onClose }) => {
 
         <input type="text" placeholder="Username" />
         <input type="password" placeholder="Password" />
-
+        <div>
+            
+        </div>
         <button className="login-btn">Login</button>
+
         </div>
     </div>
     );

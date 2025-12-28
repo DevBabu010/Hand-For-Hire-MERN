@@ -8,21 +8,25 @@ export default function Hamburgermenu({onHbClose}) {
             <div className='hm-body'>
                 <div>
                     <i class="fa-solid fa-house"></i>
-                    Home Management
+                    
+                    <span className='hb-headings'>Home Management</span>
                 </div>
                 <div>
                     <i class="fa-solid fa-user"></i>
-                    User Dashboard
+                    <span className='hb-headings'> User Dashboard</span>
                 </div>
                 <div>
                     <i class="fa-solid fa-sliders"></i>
-                    Services
+                    
+
+                    <span  className='hb-headings'>Services</span>
 
                 </div>
 
                 <div>
                     <i class="fa-solid fa-graduation-cap"></i>
-                    Education & Training
+                    <span className='hb-headings'>Education & Training</span>
+                    
 
                 </div>
             </div>

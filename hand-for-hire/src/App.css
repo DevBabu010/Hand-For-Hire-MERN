@@ -67,7 +67,7 @@
 .hamburger-menu-window{
   z-index: 1010;
   position: fixed;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   top: 0;
   left: 0;
   width: 300px;
@@ -91,16 +91,16 @@
 
 
 .hm-heading{
-  padding-top: 15px;
+    padding-top: 15px;
     padding-left: 10px;
     font-size: 1.07rem;
     font-weight: 600;
-    color: black;
+    color: rgb(67, 64, 64);
 }
 
 .hm-body{
   cursor: pointer;
-  color: #040527;
+  color: #2b2b28;
   margin-top: 40px;
   padding-left: 10px;
   display: flex;
@@ -126,4 +126,9 @@
   cursor: pointer;
 
 
+}
+
+.hb-headings{
+
+  padding-left: 10px;
 }
