@@ -5,6 +5,8 @@
 
 .banner-div {
     
+    padding-top: 70px;
+    
     display: flex;
     gap: 0px;
     flex-direction: column;

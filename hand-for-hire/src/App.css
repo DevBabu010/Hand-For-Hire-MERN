@@ -5,6 +5,7 @@
 }
 
 .modal-overlay {
+  z-index: 1010;
   position: fixed;
   top: 0;
   left: 0;
@@ -14,7 +15,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1000;
 }
 .modal-box {
   background: white;
@@ -65,8 +65,9 @@
 }
 
 .hamburger-menu-window{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 1010;
   position: fixed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   top: 0;
   left: 0;
   width: 300px;

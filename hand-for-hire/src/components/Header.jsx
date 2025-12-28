@@ -10,6 +10,7 @@ const Header = ({ openLogin , openHb}) => {
     
     return (
     <div className='headerDiv'>
+        
         <div className='logo'>
             <div>
                 <img src={logo} alt="logo" />
@@ -40,8 +41,8 @@ const Header = ({ openLogin , openHb}) => {
 
 
 
-        
-    </div>
+        </div>
+    
     )
 }
 
