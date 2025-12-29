@@ -15,13 +15,53 @@ const Gemstones = () => {
             <p className='gu-heading'>Gemstones & You</p>
             <p className='gu-para'>Through the sacred lens of Vedic astrology, we come to realize that the divine rhythms of the universe are deeply intertwined with the celestial movements of the planets.</p>
             <p className='gu-para'>These sacred planets—the radiant Sun, gentle Moon, fiery Mars, wise Jupiter, graceful Venus, swift Mercury, and steadfast Saturn—along with the mystical shadow forces Rahu and Ketu, guide the course of our earthly journey.</p>
-            <p className='gu-para'>Gemstones, created by divine will over countless ages, are imbued with the pure energies of these cosmic beings. As sacred vessels of planetary grace, they help harmonize and align our lives with the blessings of the universe, offering protection, strength, and spiritual upliftment.</p>
-        
+            <p className='gu-para'>Gemstones, created by divine will over countless ages, are imbued with the pure energies of these cosmic beings. As sacred vessels of planetary grace, they help harmonize and align our lives with the blessings of the universe, offering protection, strength, and spiritual upliftment.</p>       
             </div>
 
             <div>
                 <img src= {Gemconsult} alt="gms" />
             </div>
+        </div>
+
+        <div className="gem-products-div">
+            <div className="gem-products-heading">
+                <p>GENSTONES COLLECTION</p>
+            </div>
+            <div className="gem-products">
+                <div className="product">
+                    ITEM
+                </div>
+                <div className="product">
+                    ITEM
+                </div>
+                <div className="product">
+                    ITEM
+                </div>
+                <div className="product">
+                    ITEM
+                </div>
+                <div className="product">
+                    ITEM
+                </div>
+                <div className="product">
+                    ITEM                   
+                </div>
+                <div className="product">
+                    ITEM
+                </div>
+                <div className="product">
+                    ITEM
+                </div>
+                <div className="product">
+                    ITEM
+                </div>
+                <div className="product">
+                    ITEM
+                </div>
+
+                
+            </div>
+
         </div>
         
     </div>

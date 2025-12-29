@@ -22,7 +22,7 @@ const Astrologyservices = () => {
         <div className='astro-body'>
             <div className='new-tag-div'>
                 <div>
-                    <Link to = "/gemstones" target="_blank">
+                    <Link to = "/gemstones">
                     <img className='astro-body-img' src={emerald} alt="pl" />
                     </Link>
                     

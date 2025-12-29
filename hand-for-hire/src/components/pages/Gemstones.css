@@ -33,3 +33,41 @@ padding-bottom: 25px;
 font-family: Georgia, "Times New Roman", Times, serif;
 
 }
+
+.gem-products-heading{
+    text-align: center;
+}
+
+.gem-products-heading p {
+    margin: 10px;
+    font-size: 5rem;
+    background: linear-gradient(
+    90deg,
+    #7a5c1e,
+    #d4af37,
+    #d44904,
+    #d4af37,
+    #f69001
+    );
+    background-size: 300% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: goldShine 5s linear infinite;
+}
+
+@keyframes goldShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.gem-products{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    
+}
