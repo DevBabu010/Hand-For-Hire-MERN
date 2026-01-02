@@ -141,3 +141,17 @@ font-family: Georgia, "Times New Roman", Times, serif;
 .product{
     position: relative;
 }
+
+.gem-products-heading img {
+    width: 800px;
+}
+
+@media (max-width : 700px) {
+    .gem-products-heading img {
+    width: 500px;
+}
+.gemstone-about{ 
+    max-width: 500px;
+}
+    
+}
