@@ -28,23 +28,6 @@ Hand For Hire is a modern, responsive service-discovery web application that hel
 
 ---
 
-## 📂 Project Structure
-
-hand-for-hire/ <br>
-├── public/<br>
-├── src/<br>
-│ ├── components/<br>
-│ ├── pages/<br>
-│ ├── assets/<br>
-│ ├── App.jsx<br>
-│ ├── main.jsx<br>
-│ └── index.css<br>
-├── package.json<br>
-├── vite.config.js<br>
-└── README.md<br>
-
----
-
 ## ⚙️ Installation & Run (locally)
 
 git clone https://github.com/devbabu010/hand-for-hire.git
